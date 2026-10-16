@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import { useNavigate } from 'react-router'
 import backgroundFinally from '../assets/background-finaly.svg'
 import done from '../assets/done.svg'
@@ -5,7 +6,7 @@ import { Button } from './button'
 
 type FinallyProps = {
     title: string
-    subtitle: string
+    subtitle: ReactNode
     titleButton: string
     path?: string
 }
