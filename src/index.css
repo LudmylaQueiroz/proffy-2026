@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-another-purple: oklch(0.649 0.19 294.09);
+  --color-background: oklch(0.9571 0.0093 286.22);
+  --color-purple: oklch(57.75% 0.205 292.79);
+  --color-dark-purple: oklch(49.53% 0.189 291.62);
+  --color-green: oklch(75.76% 0.209 149.71);
+  --color-another-green: oklch(83.65% 0.214 151.87);
+  --color-gray-lines-in-white: oklch(92.78% 0.013 286.13);
+  --color-gray-hover: oklch(94.30% 0.013 286.14);
+  --color-gray-shape: oklch(89.71% 0.012 286.15);
+  --color-white-shape: oklch(98.57% 0.003 286.35);
+  --color-text-title: oklch(30.26% 0.069 296.19);
+  --color-text-base: oklch(51.28% 0.049 297.94);
+  --color-text-complement: oklch(68.75% 0.021 298.89);
+  --color-text-input: oklch(80.42% 0.023 300.11);
+  --color-text-purple-base: oklch(84.94% 0.086 298.08);
+  --color-text-purple-complement: oklch(68.43% 0.170 295.21);
+  --color-green-dark: oklch(0.7034 0.1937 149.86);
+
+  --font-archivo-bold: ArchivoBold, "sans-serif";
+  --font-archivo-semibold: ArchivoSemiBold, "sans-serif";
+  --font-archivo-regular: ArchivoRegular, "sans-serif";
+  --font-poppins-semibold: PoppinsSemiBold, "sans-serif";
+  --font-poppins-regular: PoppinsRegular, "sans-serif";
+}
+
+@font-face {
+  font-family: ArchivoBold;
+  font-style: normal;
+  src: url("./assets/fonts/Archivo/Archivo-Bold.ttf");
+}
+
+@font-face {
+  font-family: ArchivoRegular;
+  font-style: normal;
+  src: url("./assets/fonts/Archivo/Archivo-Regular.ttf");
+}
+
+@font-face {
+  font-family: ArchivoSemiBold;
+  font-style: normal;
+  src: url("./assets/fonts/Archivo/Archivo-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: PoppinsRegular;
+  font-style: normal;
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: PoppinsSemiBold;
+  font-style: normal;
+  src: url("./assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
